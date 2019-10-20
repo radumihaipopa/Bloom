@@ -1,4 +1,4 @@
-## BLOOM
+![alt text](https://github.com/radumihaipopa/Bloom/blob/master/public/logo.PNG)
 
 This project is a simple front end VOD. It was created with React and Redux for learning purpose. It uses The MovieDB Api to fetch movies and display details.
 
