@@ -1,0 +1,30 @@
+  .carousel-container {
+    margin: 0 5px 10px 0;
+  }
+
+  .chevron::before {
+    color: 	#168CCB;
+    border-style: solid;
+    border-width: 0.4em 0.4em 0 0;
+    content: '';
+    display: inline-block;
+    height: 1.5em;
+    left: 0.30em;
+    position: relative;
+    top: 0.30em;
+    transform: rotate(-45deg);
+    vertical-align: top;
+    width: 1.5em;
+  }
+  
+  .chevron.right:before {
+    left: -30px;
+    transform: rotate(45deg);
+  }
+  
+  .chevron.left:before {
+    left: 30px;
+    transform: rotate(-135deg);
+  }
+  
+
